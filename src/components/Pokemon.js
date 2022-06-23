@@ -21,7 +21,7 @@ const Pokemon = () => {
       return (
         <div className="pokemon">
           <p>Name: {pokemon.name}</p>
-          <img src={pokemon.sprites.front_default} />
+          <img src={pokemon.sprites.front_default} alt='' />
           <p>ID {pokemon.id}</p>
         </div>
       )

@@ -18,7 +18,7 @@ function App() {
             {/* <Route path="/" /> */}
             <Route path="/pokemon" element={<Pokemon/>} />
             <Route path="/berries" element={<Berries/>} />
-            <Route path="/location" element={<Locations/>} />
+            <Route path="/locations" element={<Locations/>} />
           </Routes>
         </main>
       </div>
