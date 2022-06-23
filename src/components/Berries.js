@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const Berries = () => {
   const [results, setResults] = useState([]);
   const [selection, setSelection] = useState('');
-  const [berry, setBerry] = useState()
+  const [berry, setBerry] = useState('')
 
   const handleSelection = (e) =>{
     const value = e.target.value;
